@@ -277,7 +277,7 @@ export const Like = ({
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className="w-6 h-6 absolute right-0 m-1 z-[100]"
+      className="w-6 h-6 absolute right-10 sm:right-0 m-1 z-[100]"
       onClick={() => toggleLike(id)}
     >
       <path

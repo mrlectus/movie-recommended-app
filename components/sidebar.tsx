@@ -4,7 +4,7 @@ import { Clock, Home, Idea, Love, VideoCamera } from "./icons/icons";
 const SideBar = () => {
   return (
     <>
-      <aside className="flex flex-col w-[200px] min-h-screen border-r">
+      <aside className="sm:flex hidden sm:flex-col sm:w-[200px] sm:min-h-screen sm:border-r">
         <div className="flex items-center">
           <VideoCamera />
         </div>

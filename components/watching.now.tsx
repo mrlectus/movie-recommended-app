@@ -21,11 +21,11 @@ const WatchingNow = () => {
           <ArrowRight />
         </div>
       </div>
-      <div className="grid grid-cols-5 gap-5">
+      <div className="sm:grid sm:grid-cols-5 sm:gap-5 flex flex-col gap-2 w-full">
         {movies?.results?.slice(0, 5).map((movie) => {
           return (
             <Fragment key={movie.id}>
-              <div className="rounded-md text-white relative flex flex-col">
+              <div className="rounded-md text-white relative flex flex-col w-full">
                 <Like
                   toggleLike={() => toggleLike(movie.id)}
                   id={movie.id}

@@ -15,7 +15,7 @@ const NowPlaying = () => {
       <div className="flex items-center justify-between mb-4">
         <h2 className="font-bold text-xl">Now Playing</h2>
       </div>
-      <div className="grid grid-cols-5 gap-5">
+      <div className="sm:grid sm:grid-cols-5 sm:gap-5 flex flex-col gap-2">
         {movies?.results?.map((movie) => {
           return (
             <Fragment key={movie.id}>
