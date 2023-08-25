@@ -1,0 +1,55 @@
+## Authenticate
+GET https://api.themoviedb.org/3/authentication
+Content-Type: application/json
+Authorization: Bearer {{NEXT_PUBLIC_ACCESS_TOKEN}}
+
+## Create Request Token
+GET https://api.themoviedb.org/3/authentication/token/new
+Content-Type: application/json
+Authorization: Bearer {{NEXT_PUBLIC_ACCESS_TOKEN}}
+
+## Movie List
+GET https://api.themoviedb.org/3/discover/movie
+Content-Type: application/json
+Authorization: Bearer {{NEXT_PUBLIC_ACCESS_TOKEN}}
+
+## Genres Movie List
+GET https://api.themoviedb.org/3/genre/movie/list
+Content-Type: application/json
+Authorization: Bearer {{NEXT_PUBLIC_ACCESS_TOKEN}}
+
+## Popular movie
+GET https://api.themoviedb.org/3/movie/popular
+Content-Type: application/json
+Authorization: Bearer {{NEXT_PUBLIC_ACCESS_TOKEN}}
+
+## Top Rated movie
+GET https://api.themoviedb.org/3/movie/top_rated
+Content-Type: application/json
+Authorization: Bearer {{NEXT_PUBLIC_ACCESS_TOKEN}}
+
+## Upcoming movie
+GET https://api.themoviedb.org/3/movie/upcoming
+Content-Type: application/json
+Authorization: Bearer {{NEXT_PUBLIC_ACCESS_TOKEN}}
+
+## Movie images
+GET https://api.themoviedb.org/3/movie/240/images
+Content-Type: application/json
+Authorization: Bearer {{NEXT_PUBLIC_ACCESS_TOKEN}}
+
+## Latest movies
+GET https://api.themoviedb.org/3/movie/latest
+Content-Type: application/json
+Authorization: Bearer {{NEXT_PUBLIC_ACCESS_TOKEN}}
+
+## Recommendations from imdb
+GET https://api.themoviedb.org/3/movie/{movie_id}/recommendations
+Content-Type: application/json
+Authorization: Bearer {{NEXT_PUBLIC_ACCESS_TOKEN}}
+
+## Now Playing
+GET https://api.themoviedb.org/3/movie/now_playing
+Content-Type: application/json
+Authorization: Bearer {{NEXT_PUBLIC_ACCESS_TOKEN}}
+## https://image.tmdb.org/t/p/original//kXfqcdQKsToO0OUXHcrrNCHDBzO.jpg
