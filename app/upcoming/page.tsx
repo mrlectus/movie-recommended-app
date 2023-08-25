@@ -5,7 +5,7 @@ import { Fragment } from "react";
 import { useMovieLike } from "@/app/hooks/useMovieLike";
 import { Like } from "@/components/icons/icons";
 import { Button } from "@/components/ui/button";
-import { useGetUpcomingMovies } from "../hooks/getUpcomingMovie";
+import { useGetUpcomingMovies } from "../hooks/api/getUpcomingMovie";
 
 const Upcoming = () => {
   const [{ data }, page, setNextPage] = useGetUpcomingMovies();
